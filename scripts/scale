@@ -1,0 +1,30 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+Copyright (C) 2018 NVIDIA Corporation.  All rights reserved.
+Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+Authors: Patrick Wieschollek, Orazio Gallo, Jinwei Gu, and Jan Kautz
+"""
+
+"""
+Description
+"""
+
+import sys
+import numpy as np
+import cv2
+
+
+def main(fn, scale):
+    scale = float(scale)
+    ext = fn.split('.')[-1]
+    img = cv2.imread(fn)
+    img = cv2.resize(img, (0, 0), fx=scale, fy=scale)
+    # cv2.imwrite(fn.replace('.' + ext, "_scaled." + ext), img)
+    cv2.imwrite('scaled_' + fn, img)
+    pass
+
+
+if __name__ == '__main__':
+    main(sys.argv[1], sys.argv[2])
