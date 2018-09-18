@@ -1,4 +1,4 @@
-# Separating Reflection and Transmission Images in the Wild
+# ReflectNet: Separating Reflection and Transmission Images in the Wild
 Patrick Wieschollek, Orazio Gallo, Jinwei Gu, Jan Kautz (ECCV 2018)
 
 Abstract
@@ -13,7 +13,7 @@ The following figure shows a common case and our estimation of the reflection an
 
 <p align="center"> <img src="./.github/teaser.jpg" width="100%"> </p>
 
-This repository contains the source code and the model for ReflectNet, our 2018 "ECCV paper Separating Reflection and Transmission Images in the Wild." To compare against existing state-of-the-art, we also implemented several previously published methods, which may be useful to others in the research community. Specifically, in addition to our [ReflectNet](ReflectNet), we offer implementations for:
+This repository contains the source code and the model for ReflectNet, our 2018 ECCV paper "Separating Reflection and Transmission Images in the Wild." To compare against existing state-of-the-art, we also implemented several previously published methods, which may be useful to others in the research community. Specifically, in addition to our [ReflectNet](ReflectNet), we offer implementations for:
 
 - [Polarization and statistical analysis of scenes containing a semireflector *(Schechner et al. [1])*](./other_methods/Schechner_et_al)
 - [A physically-based approach to reflection separation: From physical modeling to constrained optimization *(Kong et al. [3])*](./other_methods/Kong_et_al)
