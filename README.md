@@ -50,7 +50,7 @@ Citation
 -------------------
 If you use the code in this repository or the [dataset](https://drive.google.com/file/d/1wNzIyWgpHlk1b4QZkG9cNNfyMncn-tnt/view?usp=sharing), please cite our paper:
 ```
-@inproceedings{eccv2017/Wieschollek,
+@inproceedings{eccv2018/Wieschollek,
   author    = {Patrick Wieschollek and
                Orazio Gallo and
                Jinwei Gu and
