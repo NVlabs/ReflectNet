@@ -11,8 +11,8 @@ from tensorpack import *
 import argparse
 import cv2
 import numpy as np
-from simulator.mapsample import MapSample, SampleType
-from simulator.parabola_sample import ParabolaSample
+from simulator import MapSample, SampleType
+from simulator import ParabolaSample
 
 
 class Polarization(object):
