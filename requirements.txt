@@ -1,1 +1,1 @@
-tensorpack>=0.8.8
+tensorpack==0.8.8
